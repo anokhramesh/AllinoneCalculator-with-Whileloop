@@ -34,11 +34,11 @@ while True:
   
         else: 
             quotient = a/b # divide the value of 'a' by 'b' then store to the variable-'quotient' 
-            rounded = format(quotient, '.2f')#formating the quotient variable,then store to rounded variable,only display 2 zeros.
-            print(a,' divided by ',b,' equals ', rounded,'.', sep = '')#display the value of 'a','b' and rounded variable.
+            rounded = format(quotient, '.2f')#formating the quotient variable,then store to rounded variable,display only 2 decimal values after the point.
+            print(a,' divided by ',b,' equals ', rounded,'.', sep = '')#display the value of 'a','b' and  variable'rounded'
   
     elif op == '%': # if user entry is %
-        remainder = a%b # devide the value of 'a' by 'b' store the remainder value to remainder 'variable'.
+        remainder = a%b # devide the value of 'a' by 'b' store the remainder value to variable'remainder'
         print('The remainder of ',a, ' and ', b, ' is ', a%b, '.', sep ='') #display the value of 'a','b' and remainder.
   
   
