@@ -2,7 +2,7 @@
 print('All in one Calculator with While loop')
 print('**************************************')
 while True:
-    op = input("Choose an operator(+,-,*,/,%)or press q for Quit\n")#op is a variable name to store the user input operator.
+    op = input("Choose an operator(+,-,*,/,%)or press q for Quit\n")#op is a string type variable name to store the user input operator.
      
     if op.lower() == 'q':#if user entry is lower case letter 'q' then break the loop and quit the program.
         break
